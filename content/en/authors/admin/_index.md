@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 허 완
+title: Yan Heo
 
 # Is this the primary user of the site?
 superuser: true
