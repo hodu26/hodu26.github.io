@@ -5,8 +5,8 @@
 
 main:
   - name: Home
-    url: ko/
+    url: /
     weight: 10
   - name: Resumé
-    url: ko/about/
+    url: about/
     weight: 20
