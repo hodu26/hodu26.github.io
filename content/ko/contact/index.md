@@ -12,7 +12,6 @@ sections:
       # Contact details - edit or remove options as needed
       email: gjdhks1212@jbnu.ac.kr
       phone: 010-3014-0269
-      appointment_url: 'https://calendly.com'
       address:
         street: 전북대학교 공과대학 7호관 619호
         city: 전주시
@@ -20,13 +19,6 @@ sections:
         postcode: '54896'
         country: 대한민국
         country_code: KO
-      social:
-        - icon: instagram
-          icon_pack: fab
-          link: https://instagram.com/gjdhks1212
-        - icon: github
-          icon_pack: fab
-          link: https://github.com/hodu26
       # Automatically link email and phone or display them just as text?
       autolink: true
 
@@ -38,4 +30,12 @@ sections:
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
+      
+social:
+  - icon: instagram
+    icon_pack: fab
+    link: https://instagram.com/gjdhks1212
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/hodu26
 ---
