@@ -31,8 +31,8 @@ sections:
 
       # Coordinates to display a map - set your map provider in `params.yaml`
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'
+        latitude: '37.566551'
+        longitude: '126.97825'
 
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
