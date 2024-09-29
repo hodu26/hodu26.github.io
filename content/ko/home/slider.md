@@ -21,7 +21,7 @@ content:
       background:
         position: right
         color: '#ffffff'
-        brightness: 0.3
+        brightness: 0.7
         media: coders.png
         fit: cover
     - title: Lunch & Learn ☕️
@@ -30,7 +30,7 @@ content:
       background:
         position: center
         color: '#ffffff'
-        brightness: 0.3
+        brightness: 0.7
         media: contact.png
         fit: cover
     - title: World-Class Semiconductor Lab
@@ -39,7 +39,7 @@ content:
       background:
         position: center
         color: '#ffffff'
-        brightness: 0.3
+        brightness: 0.7
         media: welcome.png
         fit: cover
       link:
