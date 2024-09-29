@@ -124,3 +124,9 @@ ul.network-icon .big-icon {
 .wg-about .portrait-title h3 {
   font-size: 0.8rem;
 }
+
+// set button hover event
+.btn:hover {
+  background-color:#5c87ff !important;
+  transition: 0.7s;
+}
