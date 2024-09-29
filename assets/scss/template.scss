@@ -126,7 +126,7 @@ ul.network-icon .big-icon {
 }
 
 // set button hover event
-.btn:hover {
-  background-color:#5c87ff !important;
+.btn.btn-primary.btn-lg:hover {
+  background-color:#6991ff !important;
   transition: 0.7s;
 }
