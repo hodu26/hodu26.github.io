@@ -43,6 +43,14 @@ body {
   padding: 1rem 0;
 }
 
+.home-section-bg {
+  background-color: #E0E7E9;
+}
+
+.dark .home-section-bg {
+  background-color: #272829;
+}
+
 .home-section.wg-about-avatar {
   padding: 0;
 }
