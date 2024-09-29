@@ -6,52 +6,39 @@ title: 허 완
 superuser: true
 
 # Role/position
-role: ''
+role: '학생'
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: ☁️
 
 # Organizations/Affiliations
-#organizations:
-#- name: 腾讯
+organizations:
+- name: 전북대학교 IT정보공학과
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include cloud engineering and mobile computing.
 
-#interests:
-#- Artificial Intelligence
-#- Computational Linguistics
-#- Information Retrieval
+interests:
+- Cloud Computing
+- Mobile Computing
+- Embedded Programing
 
-#education:
-#  courses:
-#  - course: PhD in Artificial Intelligence
-#    institution: Stanford University
-#    year: 2012
-#  - course: MEng in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2009
-#  - course: BSc in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2008
+education:
+  courses:
+  - course: Department of IT Information Engineering
+    institution: Jeonbuk National University
+    year: 2020 - 2026
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  # - icon: envelope
-  #   icon_pack: fas
-  #   link: 'about/#contact' # For a direct email link, use "mailto:test@example.org".
-  # - icon: twitter
-  #   icon_pack: fab
-  #   link: https://twitter.com/wowchemy
   - icon: instagram
     icon_pack: fab
     link: https://instagram.com/gjdhks1212
-  # Uncomment below for Github link
   - icon: github
     icon_pack: fab
     link: https://github.com/hodu26
@@ -63,11 +50,12 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-#email: ""
+email: "gjdhks1212@jbnu.ac.kr"
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+현재 전북대학교에서 컴퓨터 공학을 전공중인 허완입니다.
+클라우드 컴퓨팅에 관심을 가지고 있으며, 클라우드 환경에서의 개발 환경 설정 및 서비스 배포 방식에 대하여 공부 중입니다.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+클라우드 컴퓨팅 외에도 알고리즘 및 모바일 프로그래밍, 유니티 등 다양한 분야를 경험하고 있습니다.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/04.Direct_Execution(24.07.07.).pdf" "newtab" >}}Download{{< /staticref >}} my sample as a PDF.
