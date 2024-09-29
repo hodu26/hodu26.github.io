@@ -7,6 +7,7 @@ tags:
   - cloud
   - devops
 date: 2024-08-20
+url: k8s/
 external_link: http://github.com/hodu26
 
 image:

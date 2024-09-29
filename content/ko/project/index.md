@@ -1,5 +1,0 @@
----
-title: Project
-
-view: card
----
