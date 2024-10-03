@@ -1,7 +1,11 @@
-<div class="card-list">
-    {{ range . }}
-    <div class="custom-card">
-      {{ partial "custom_card_view.html" . }}
-    </div>
-    {{ end }}
+<div class="card-listing">
+  <h2>{{ .Title }}</h2>
+  <div class="cards">
+      {{ range .Pages }}
+      <div class="card">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Summary }}</p>
+      </div>
+      {{ end }}
   </div>
+</div>
