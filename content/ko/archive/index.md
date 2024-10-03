@@ -1,5 +1,5 @@
 ---
 title: "Archive list"
-
-view: custom_card_listing
 ---
+
+{{ partial "view/custom_card_listing.html" .Pages }}
