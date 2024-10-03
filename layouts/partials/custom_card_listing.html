@@ -1,5 +1,7 @@
 <div class="card-list">
-    {{ range .Pages }}
+    {{ range . }}
+    <div class="custom-card">
       {{ partial "custom_card_view.html" . }}
+    </div>
     {{ end }}
   </div>
