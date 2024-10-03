@@ -1,5 +1,5 @@
 ---
 title: "Archive list"
 
-view: community/custom_card_listing
+view: custom_card_load
 ---
