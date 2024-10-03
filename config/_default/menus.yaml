@@ -7,12 +7,19 @@ main:
   - name: Home
     url: 
     weight: 10
+
   - name: Profile
     url: about/
     weight: 20
+
   - name: Project
     url: project/
     weight: 30
+
+  - name: Archive
+    url: archive/
+    weight: 40
+    
   - name: Contact
     url: contact/
     weight: 100
