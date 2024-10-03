@@ -16,8 +16,8 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: 'Jeonbuk National University / 전북대학교'
+    local_business_type: 'programmer'
+    org_name: 'Jeonbuk National University / 전북대학교 허완'
     description: 'A person who intereted in Cloud Computing.'
     twitter: ''
   analytics:
