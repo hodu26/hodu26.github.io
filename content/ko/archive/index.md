@@ -2,4 +2,4 @@
 title: "Archive list"
 ---
 
-{{< partial "view/custom_card_listing.html" .>}}
+{{ partial "custom_card_listing.html" .}}
