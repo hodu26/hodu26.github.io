@@ -5,6 +5,7 @@
       <div class="card">
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p>{{ .Summary }}</p>
+          {{ partial "custom_card_view.html" . }}
       </div>
       {{ end }}
   </div>
