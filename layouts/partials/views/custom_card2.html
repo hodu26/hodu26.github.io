@@ -4,8 +4,10 @@
   {{/* 링크 설정 */}}
   {{ $link := $item.RelPermalink }}
   {{ $target := "" }}
-  {{ $ext_link = $item.Params.external_link }}
-  {{ $ext_target = "target=\"_blank\" rel=\"noopener\"" }}
+  {{ if $item.Params.external_link }}
+    {{ $ext_link = $item.Params.external_link }}
+    {{ $ext_target = "target=\"_blank\" rel=\"noopener\"" }}
+  {{ end }}
 
   {{/* 요약 설정 */}}
   {{ $summary := "" }}
