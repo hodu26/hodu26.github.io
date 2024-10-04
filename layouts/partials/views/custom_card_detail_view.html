@@ -1,4 +1,22 @@
 <div class="card-detailed view-card">
+  {{/* 링크 설정 */}}
+  {{ $link := .RelPermalink }}
+  {{ $target := "" }}
+  {{ if .Params.external_link }}
+    {{ $link = .Params.external_link }}
+    {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+  {{ end }}
+
+  {{/* 요약 설정 */}}
+  {{ $summary := "" }}
+  {{ if .Params.summary }}
+    {{ $summary = .Params.summary | markdownify | emojify }}
+  {{ else if .Params.abstract }}
+    {{ $summary = .Params.abstract | markdownify | emojify }}
+  {{ else if .Summary }}
+    {{ $summary = .Summary }}
+  {{ end }}
+
   {{ if .Params.external_link }}
     <a href="{{ .Params.external_link }}" target="_blank" rel="noopener">
       {{ with .Params.image }}
