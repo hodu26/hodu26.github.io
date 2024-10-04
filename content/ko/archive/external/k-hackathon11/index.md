@@ -9,7 +9,7 @@ date: 2023-11-03
 summary: K-hackathon 11 우수상(한국콘텐츠학회장상) 수상 [JBDev - Elemental Coding Master]
 
 links:
-  - icon: searchengine
+  - icon: searchengin
     icon_pack: fab
     name: Site
     url: https://csai.jbnu.ac.kr/csai/29105/subview.do;jsessionid=E9235089E818B4824B2365060CF4FB6E?enc=Zm5jdDF8QEB8JTJGYmJzJTJGY3NhaSUyRjQ5MjclMkYzMTgxNjAlMkZhcnRjbFZpZXcuZG8lM0Y%3D

@@ -13,7 +13,7 @@ links:
     icon_pack: fab
     name: Code
     url: https://github.com/hodu26/oasis_con
-  - icon: searchengine
+  - icon: searchengin
     icon_pack: fab
     name: Site
     url: https://kr.aving.net/news/articleView.html?idxno=1793258
