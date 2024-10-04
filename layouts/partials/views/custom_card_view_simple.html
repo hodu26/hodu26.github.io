@@ -1,0 +1,17 @@
+<div class="card-simple view-card">
+  <a href="{{ .RelPermalink }}">
+    {{ with .Params.image }}
+      <div class="img-hover-zoom">
+        <img src="{{ . }}" alt="{{ .Title }}" loading="lazy" style="width: 100%; height: auto;">
+      </div>
+    {{ end }}
+    <div class="section-subheading article-title mb-1 mt-3">
+      {{ .Title }}
+    </div>
+  </a>
+  {{ with .Summary }}
+  <div class="article-style">
+    <p>{{ . }}</p>
+  </div>
+  {{ end }}
+</div>

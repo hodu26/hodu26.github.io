@@ -1,0 +1,45 @@
+<div class="card-detailed view-card">
+  {{ if .Params.external_link }}
+    <a href="{{ .Params.external_link }}" target="_blank" rel="noopener">
+      {{ with .Params.image }}
+        <div class="img-hover-zoom">
+          <img src="{{ . }}" alt="{{ .Title }}" loading="lazy" style="width: 100%; height: auto;">
+        </div>
+      {{ end }}
+      <div class="section-subheading article-title mb-1 mt-3">
+        {{ .Title }}
+      </div>
+    </a>
+  {{ else }}
+    <a href="{{ .RelPermalink }}">
+      {{ with .Params.image }}
+        <div class="img-hover-zoom">
+          <img src="{{ . }}" alt="{{ .Title }}" loading="lazy" style="width: 100%; height: auto;">
+        </div>
+      {{ end }}
+      <div class="section-subheading article-title mb-1 mt-3">
+        {{ .Title }}
+      </div>
+    </a>
+  {{ end }}
+
+  <div class="article-metadata">
+    <span>Posted on {{ .Date.Format "January 2, 2006" }}</span>
+    {{ with .Params.location }}
+    <span class="middot-divider"></span>
+    <span>{{ . }}</span>
+    {{ end }}
+  </div>
+
+  {{ with .Summary }}
+    <div class="article-style">
+      <p>{{ . }}</p>
+    </div>
+  {{ end }}
+
+  {{ if .Params.attachments }}
+  <div class="btn-links">
+    <a href="{{ .Params.attachments }}">Download Attachment</a>
+  </div>
+  {{ end }}
+</div>
