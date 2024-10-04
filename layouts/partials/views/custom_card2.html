@@ -47,7 +47,9 @@
   {{ if $image }}
     <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
       <div class="img-hover-zoom">
-        <img src="{{ $image.RelPermalink }}" alt="{{ $.Title }}" loading="lazy" style="width: 90%; height: auto; text-align: center;">
+        <center>
+          <img src="{{ $image.RelPermalink }}" alt="{{ $.Title }}" loading="lazy" style="width: 90%; height: auto;">
+        </center>
       </div>
     </a>
   {{ end }}
