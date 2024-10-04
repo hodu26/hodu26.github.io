@@ -1,5 +1,5 @@
 <div class="card">
-    <h2>{{ .Title }}</h2>
+    <h2>{{ $.Page.Title }}</h2>
     {{ if .Params.image }}
       <img src="{{ .Params.image }}" alt="{{ .Title }}" />
     {{ end }}
