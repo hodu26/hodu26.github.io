@@ -43,7 +43,7 @@
   {{ with $item.Params.image }}
     <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
       <div class="img-hover-zoom">
-        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" style="width: 100%; height: auto;">
+        <img src="{{ assets/media/ }}" alt="{{ $.Title }}" loading="lazy" style="width: 100%; height: auto;">
       </div>
     </a>
   {{ end }}
