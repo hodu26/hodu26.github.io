@@ -18,7 +18,16 @@ main:
 
   - name: Archive
     url: archive/
+    identifier: archive
     weight: 40
+  - name: Internal
+    url: archive/internal/
+    parent: archive
+    weight: 1
+  - name: External
+    url: archive/external/
+    parent: archive
+    weight: 2
     
   - name: Contact
     url: contact/
