@@ -1,0 +1,14 @@
+<pre>{{ printf "%#v" . }}</pre>
+
+<div class="card-listing">
+  <h2>{{ $.Page.Title }}</h2>
+  <div class="cards">
+      {{ range $.Page.Pages }}
+      <div class="card">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Summary }}</p>
+          {{ partial "custom_card_view.html" . }}
+      </div>
+      {{ end }}
+  </div>
+</div>
