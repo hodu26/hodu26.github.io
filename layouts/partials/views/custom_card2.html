@@ -38,7 +38,7 @@
   </div>
   {{ else }}
   <div class="page-metadata">
-    <span style="font-size: small;">{{ $item.Date.Format "January 2, 2006" }}</span>
+    <span style="font-size: small; text-align: right;">{{ $item.Date.Format "January 2, 2006" }}</span>
   </div>
   {{ end }}
 
@@ -47,7 +47,9 @@
   {{ if $image }}
     <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
       <div class="img-hover-zoom">
-        <img src="{{ $image.RelPermalink }}" alt="{{ $.Title }}" loading="lazy" style="width: 100%; height: 80%;">
+        <center>
+          <img src="{{ $image.RelPermalink }}" alt="{{ $.Title }}" loading="lazy" style="width: 90%; height: auto;">
+        </center>
       </div>
     </a>
   {{ end }}
