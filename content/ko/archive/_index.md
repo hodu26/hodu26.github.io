@@ -1,7 +1,7 @@
 ---
 title: "Archive list"
 
-view : community/custom_card_listing
+view : card
 
 banner:
   caption: ''
