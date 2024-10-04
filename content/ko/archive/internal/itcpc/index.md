@@ -6,9 +6,13 @@ image:
 
 date: 2020-11-20
 
-description: 2020 IT정보공학과 프로그래밍 경진대회 [ITCPC] 전체 4위 | 1학년 우수상
+summary: 2020 IT정보공학과 프로그래밍 경진대회 [ITCPC] 전체 4위 | 1학년 우수상
 
-external_link : https://it.jbnu.ac.kr/bbs/it/1467/183400/artclView.do
+links:
+  - icon: window-restore
+    icon_pack: fab
+    name: Site
+    link: https://it.jbnu.ac.kr/bbs/it/1467/183400/artclView.do
 ---
 
 전북대 IT정보공학과「2020 ITCPC」
