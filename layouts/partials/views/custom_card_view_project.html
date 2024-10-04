@@ -22,6 +22,11 @@
     {{ $summary = $item.Summary }}
   {{ end }}
 
+  {{/* 마진 강제 생성 */}}
+  <div class="page-metadata" style="text-align: right;">
+    <span style="font-size: small;"></span>
+  </div>
+
   {{/* 이미지 출력 */}}
   {{ $image := resources.Get (printf "media/%s" $item.Params.image.filename) }}
   {{ if $image }}
