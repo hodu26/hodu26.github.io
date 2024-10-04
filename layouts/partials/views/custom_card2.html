@@ -41,7 +41,7 @@
 
   {{/* 이미지 출력 */}}
   {{ $image := resources.Get (printf "media/%s" $item.Params.image) }}
-  {{ with $image }}
+  {{ if $image }}
     <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
       <div class="img-hover-zoom">
         <img src="{{ $image.RelPermalink }}" alt="{{ $.Title }}" loading="lazy" style="width: 100%; height: auto;">
