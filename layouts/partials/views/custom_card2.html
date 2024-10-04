@@ -39,26 +39,10 @@
   {{ end }}
 
   {{/* 이미지 출력 */}}
-  {{ if .Params.external_link }}
-    <a href="{{ .Params.external_link }}" target="_blank" rel="noopener">
-      {{ with .Params.image }}
-        <div class="img-hover-zoom">
-          <img src="{{ . }}" alt="{{ .Title }}" loading="lazy" style="width: 100%; height: auto;">
-        </div>
-      {{ end }}
-      <div class="section-subheading article-title mb-1 mt-3">
-        {{ .Title }}
-      </div>
-    </a>
-  {{ else }}
-    <a href="{{ .RelPermalink }}">
-      {{ with .Params.image }}
-        <div class="img-hover-zoom">
-          <img src="{{ . }}" alt="{{ .Title }}" loading="lazy" style="width: 100%; height: auto;">
-        </div>
-      {{ end }}
-      <div class="section-subheading article-title mb-1 mt-3">
-        {{ .Title }}
+  {{ with .Params.image }}
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+      <div class="img-hover-zoom">
+        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" style="width: 100%; height: auto;">
       </div>
     </a>
   {{ end }}
