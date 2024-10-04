@@ -4,12 +4,12 @@
   {{/* 링크 설정 */}}
   {{ $link := $item.RelPermalink }}
   {{ $target := "" }}
+
+  {{ $ext_link := $item.RelPermalink }}
+  {{ $ext_target := "" }}
   {{ if $item.Params.external_link }}
     {{ $ext_link := $item.Params.external_link }}
     {{ $ext_target := "target=\"_blank\" rel=\"noopener\"" }}
-  {{ else }}
-    {{ $ext_link := $item.RelPermalink }}
-    {{ $ext_target := "" }}
   {{ end }}
 
   {{/* 요약 설정 */}}
