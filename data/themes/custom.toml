@@ -5,8 +5,6 @@ name = "Starter Blog"
   # Primary
   primary = "#2962ff"
 
-  background = "#000000"
-
   # Menu
   menu_primary = "rgb(247, 250, 252)"
   menu_text = "#34495e"
