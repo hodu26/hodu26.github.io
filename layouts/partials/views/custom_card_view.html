@@ -1,8 +1,24 @@
-<div class="card">
-    <h2>{{ $.Page.Title }}</h2>
-    {{ if .Params.image.filename }}
-      <img src="{{ .Params.image.filename }}" alt="{{ .Title }}" />
+<div class="card-view">
+  {{ $item := . }}
+  
+  <h1>{{ $item.Title }}</h1>
+
+  <div class="article-metadata">
+    <span>{{ $item.Date.Format "2006-01-02" }}</span>
+    {{ if $item.Params.authors }}
+      <span>by {{ range $item.Params.authors }}{{ . }}{{ if not (eq (last $item.Params.authors) .) }}, {{ end }}{{ end }}</span>
     {{ end }}
-    <p>{{ .Params.description }}</p>
-    <a href="{{ .Permalink }}">자세히 보기</a>
   </div>
+
+  {{ if $item.Params.image }}
+    <img src="{{ $item.Params.image }}" alt="{{ $item.Title }}" class="article-banner" loading="lazy">
+  {{ end }}
+
+  <div class="article-content">
+    {{ .Content | markdownify }}
+  </div>
+
+  {{ if .Params.external_link }}
+    <a href="{{ .Params.external_link }}" target="_blank" rel="noopener">Read more</a>
+  {{ end }}
+</div>

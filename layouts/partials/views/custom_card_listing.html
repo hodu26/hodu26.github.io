@@ -1,12 +1,21 @@
 <div class="card-listing">
-  <h2>{{ $.Page.Title }}</h2>
-  <div class="cards">
-      {{ range $.Page.Pages }}
-      <div class="card">
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  {{ range .Items }}
+    <div class="card-simple">
+      <a href="{{ .RelPermalink }}">
+        <div class="img-hover-zoom">
+          {{ if .Params.image }}
+            <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+          {{ end }}
+        </div>
+        <div class="card-title">
+          <h3>{{ .Title }}</h3>
+        </div>
+      </a>
+      <div class="card-summary">
+        {{ if .Summary }}
           <p>{{ .Summary }}</p>
-          {{ partial "custom_card_view.html" . }}
+        {{ end }}
       </div>
-      {{ end }}
-  </div>
+    </div>
+  {{ end }}
 </div>
