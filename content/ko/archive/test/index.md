@@ -1,7 +1,7 @@
 ---
 title: "테스트"
 
-image: "/images/k8s.png"
+image: "k8s.png"
 
 description: "테스트입니다."
 ---
