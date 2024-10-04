@@ -1,5 +1,5 @@
 ---
 title: Archive List
 
-view: custom_card
+view: custom_card2
 ---
