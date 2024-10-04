@@ -12,7 +12,7 @@ links:
   - icon: window-restore
     icon_pack: fab
     name: Site
-    link: https://it.jbnu.ac.kr/bbs/it/1467/183400/artclView.do
+    url: https://it.jbnu.ac.kr/bbs/it/1467/183400/artclView.do
 ---
 
 전북대 IT정보공학과「2020 ITCPC」

@@ -12,11 +12,11 @@ links:
   - icon: github
     icon_pack: fab
     name: Code
-    link: https://github.com/hodu26/oasis_con
+    url: https://github.com/hodu26/oasis_con
   - icon: window-restore
     icon_pack: fab
     name: Site
-    link: https://kr.aving.net/news/articleView.html?idxno=1793258
+    url: https://kr.aving.net/news/articleView.html?idxno=1793258
 
 ---
 

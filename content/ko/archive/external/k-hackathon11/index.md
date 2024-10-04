@@ -12,7 +12,7 @@ links:
   - icon: window-restore
     icon_pack: fab
     name: Site
-    link: https://csai.jbnu.ac.kr/csai/29105/subview.do;jsessionid=E9235089E818B4824B2365060CF4FB6E?enc=Zm5jdDF8QEB8JTJGYmJzJTJGY3NhaSUyRjQ5MjclMkYzMTgxNjAlMkZhcnRjbFZpZXcuZG8lM0Y%3D
+    url: https://csai.jbnu.ac.kr/csai/29105/subview.do;jsessionid=E9235089E818B4824B2365060CF4FB6E?enc=Zm5jdDF8QEB8JTJGYmJzJTJGY3NhaSUyRjQ5MjclMkYzMTgxNjAlMkZhcnRjbFZpZXcuZG8lM0Y%3D
 ---
 
 「K-hackathon 11」
