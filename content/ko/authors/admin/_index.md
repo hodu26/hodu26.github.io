@@ -18,12 +18,13 @@ organizations:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include cloud engineering and mobile computing.
+bio: My research interests include cloud engineering and operating system.
 
 interests:
 - Cloud Computing
-- Mobile Computing
+- Operating System
 - Embedded Programing
+- Algorithm
 
 education:
   courses:
