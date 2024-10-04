@@ -40,7 +40,7 @@
   {{ end }}
 
   {{/* 이미지 출력 */}}
-  {{ $image := resources.Get (printf "media/%s" $item.Params.image) }}
+  {{ $image := resources.Get (printf "media/%s" $item.Params.image.filename) }}
   {{ if $image }}
     <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
       <div class="img-hover-zoom">
