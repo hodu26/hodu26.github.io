@@ -1,7 +1,7 @@
 <div class="card-listing">
   <h2>{{ .Title }}</h2>
   <div class="cards">
-      {{ range .Pages }}
+      {{ range .Site.RegularPages }}
       <div class="card">
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p>{{ .Summary }}</p>
