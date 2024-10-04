@@ -1,0 +1,45 @@
+<div class="card-simple view-card">
+  {{ $item := .item }}
+
+  {{/* 링크 설정 */}}
+  {{ $link := $item.RelPermalink }}
+  {{ $target := "" }}
+
+  {{/* 요약 설정 */}}
+  {{ $summary := "" }}
+  {{ if $item.Params.summary }}
+    {{ $summary = $item.Params.summary | markdownify | emojify }}
+  {{ else if $item.Params.abstract }}
+    {{ $summary = $item.Params.abstract | markdownify | emojify }}
+  {{ else if $item.Summary }}
+    {{ $summary = $item.Summary }}
+  {{ end }}
+
+  {{/* 이미지 출력 */}}
+  {{ $image := resources.Get (printf "media/%s" $item.Params.image.filename) }}
+  {{ if $image }}
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+      <div class="img-hover-zoom">
+        <center>
+          <img src="{{ $image.RelPermalink }}" alt="{{ $.Title }}" loading="lazy" style="width: 90%; height: auto;">
+        </center>
+      </div>
+    </a>
+  {{ end }}
+
+  {{/* 제목 출력 */}}
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
+  </div>
+
+  {{/* 요약 출력 */}}
+  {{ with $summary }}
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="summary-link">
+      <div class="article-style">
+        <p>{{ . }}</p>
+      </div>
+    </a>
+  {{ end }}
+  
+  </div>
+  
