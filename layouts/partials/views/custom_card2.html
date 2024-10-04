@@ -11,11 +11,11 @@
 
   {{/* 요약 설정 */}}
   {{ $summary := "" }}
-  {{ if .Params.summary }}
+  {{ if $item.Params.summary }}
     {{ $summary = $item.Params.summary | markdownify | emojify }}
-  {{ else if .Params.abstract }}
+  {{ else if $item.Params.abstract }}
     {{ $summary = $item.Params.abstract | markdownify | emojify }}
-  {{ else if .Summary }}
+  {{ else if $item.Summary }}
     {{ $summary = $item.Summary }}
   {{ end }}
 
