@@ -39,6 +39,9 @@ social:
   - icon: instagram
     icon_pack: fab
     link: https://instagram.com/gjdhks1212
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/%EC%99%84-%ED%97%88-2a4642310/
   - icon: github
     icon_pack: fab
     link: https://github.com/hodu26
