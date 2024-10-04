@@ -1,9 +1,16 @@
-<div class="card-simple view-card">
+<div class="card-project view-card">
   {{ $item := .item }}
 
   {{/* 링크 설정 */}}
   {{ $link := $item.RelPermalink }}
   {{ $target := "" }}
+
+  {{ $ext_link := $item.RelPermalink }}
+  {{ $ext_target := "" }}
+  {{ if $item.Params.external_link }}
+    {{ $ext_link := $item.Params.external_link }}
+    {{ $ext_target := "target=\"_blank\" rel=\"noopener\"" }}
+  {{ end }}
 
   {{/* 요약 설정 */}}
   {{ $summary := "" }}
@@ -40,6 +47,20 @@
       </div>
     </a>
   {{ end }}
-  
+
+  {{/* 외부 링크가 있는 경우 처리 */}}
+  {{ if $item.Params.external_link }}
+  <div class="btn-links" style="font-size: small;">
+    <a href="{{ $item.Params.external_link }}" {{ $ext_target | safeHTMLAttr }}>Extra Link</a>
   </div>
+  {{ end }}
+
+  {{/* 첨부 파일이 있는 경우 처리 */}}
+  {{ if $item.Params.attachments }}
+  <div class="btn-links" style="font-size: small;">
+    <a href="{{ $item.Params.attachments }}">Download Attachment</a>
+  </div>
+  {{ end }}
+  
+</div>
   
