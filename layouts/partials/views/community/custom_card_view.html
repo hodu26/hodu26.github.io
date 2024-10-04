@@ -1,7 +1,7 @@
 <div class="card">
     <h2>{{ $.Page.Title }}</h2>
-    {{ if .Params.image }}
-      <img src="{{ .Params.image }}" alt="{{ .Title }}" />
+    {{ if .Params.image.filename }}
+      <img src="{{ .Params.image.filename }}" alt="{{ .Title }}" />
     {{ end }}
     <p>{{ .Params.description }}</p>
     <a href="{{ .Permalink }}">자세히 보기</a>
