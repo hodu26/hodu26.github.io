@@ -44,14 +44,14 @@
   {{ if $image }}
     <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
       <div class="img-hover-zoom">
-        <img src="{{ $image.RelPermalink }}" alt="{{ $.Title }}" loading="lazy" style="width: 100%; height: auto;">
+        <img src="{{ $image.RelPermalink }}" alt="{{ $.Title }}" loading="lazy" style="width: 80%; height: auto;">
       </div>
     </a>
   {{ end }}
 
   {{/* 제목 출력 */}}
   <div class="section-subheading article-title mb-1 mt-3">
-    <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ .Title }}</a>
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $items.Title }}</a>
   </div>
 
   {{/* 요약 출력 */}}
