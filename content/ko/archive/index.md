@@ -1,7 +1,7 @@
 ---
 title: "Archive list"
 
-view: custom_card_load
+view: custom
 ---
 
-{{< custom_card_load >}}
+<!-- {{< custom_card_load >}} -->
