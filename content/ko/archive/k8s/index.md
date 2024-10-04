@@ -1,7 +1,8 @@
 ---
 title: 테스트2
 
-image: k8s.jpg
+image: 
+  filename : k8s.jpg
 
 description: 테스트2입니다.
 
