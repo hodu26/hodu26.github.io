@@ -19,13 +19,7 @@ sections:
         postcode: '54896'
         country: 대한민국
         country_code: KO
-    #   contact_links:
-    #     - icon: instagram
-    #       icon_pack: fab
-    #       link: https://instagram.com/gjdhks1212
-    #     - icon: github
-    #       icon_pack: fab
-    #       link: https://github.com/hodu26
+        
       # Automatically link email and phone or display them just as text?
       autolink: true
 
