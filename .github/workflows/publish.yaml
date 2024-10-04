@@ -36,9 +36,8 @@ jobs:
         with:
           hugo-version: ${{ env.WC_HUGO_VERSION }}
           extended: true
-      - name: Clear Cache
-        run: |
-          rm -rf ${{ github.workspace }}/.hugo_cache
+      - name: Clear Hugo Cache
+        run: rm -rf /tmp/hugo_cache_runner
       - uses: actions/cache@v4
         with:
           path: /tmp/hugo_cache_runner/
