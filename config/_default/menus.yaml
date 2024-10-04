@@ -12,14 +12,18 @@ main:
     url: about/
     weight: 20
 
+  - name: Study
+    url: study/
+    weight: 30
+
   - name: Project
     url: project/
-    weight: 30
+    weight: 40
 
   - name: Archive
     url: archive/
     identifier: archive
-    weight: 40
+    weight: 50
   - name: Internal
     url: archive/internal/
     parent: archive
