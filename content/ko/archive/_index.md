@@ -1,7 +1,7 @@
 ---
 title: "Archive list"
 
-view : card
+view : custom_card_listing
 
 banner:
   caption: ''
