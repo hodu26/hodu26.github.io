@@ -5,13 +5,6 @@
   {{ $link := $item.RelPermalink }}
   {{ $target := "" }}
 
-  {{ $ext_link := $item.RelPermalink }}
-  {{ $ext_target := "" }}
-  {{ if $item.Params.external_link }}
-    {{ $ext_link := $item.Params.external_link }}
-    {{ $ext_target := "target=\"_blank\" rel=\"noopener\"" }}
-  {{ end }}
-
   {{/* 요약 설정 */}}
   {{ $summary := "" }}
   {{ if $item.Params.summary }}
@@ -20,26 +13,6 @@
     {{ $summary = $item.Params.abstract | markdownify | emojify }}
   {{ else if $item.Summary }}
     {{ $summary = $item.Summary }}
-  {{ end }}
-
-  {{/* 메타데이터 출력 (이벤트의 경우 처리) */}}
-  {{ if eq $item.Type "event" }}
-  <div class="article-metadata">
-    {{ if $item.Params.authors }}
-    <div>
-      <span>{{ $item.Params.authors }}</span>
-    </div>
-    {{ end }}
-    <span>{{ $item.Params.date }}</span>
-    {{ with $item.Params.location }}
-    <span class="middot-divider"></span>
-    <span>{{ . }}</span>
-    {{ end }}
-  </div>
-  {{ else }}
-  <div class="page-metadata" style="text-align: right;">
-    <span style="font-size: small;">{{ $item.Date.Format "January 2, 2006" }}</span>
-  </div>
   {{ end }}
 
   {{/* 이미지 출력 */}}
