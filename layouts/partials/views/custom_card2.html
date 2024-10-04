@@ -46,8 +46,8 @@
   {{ $image := resources.Get (printf "media/%s" $item.Params.image.filename) }}
   {{ if $image }}
     <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
-      <div class="img-hover-zoom" style="text-align: center;">
-        <img src="{{ $image.RelPermalink }}" alt="{{ $.Title }}" loading="lazy" style="width: 90%; height: auto;">
+      <div class="img-hover-zoom">
+        <img src="{{ $image.RelPermalink }}" alt="{{ $.Title }}" loading="lazy" style="width: 90%; height: auto; text-align: center;">
       </div>
     </a>
   {{ end }}
