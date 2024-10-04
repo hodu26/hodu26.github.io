@@ -1,7 +1,7 @@
 ---
 title: 테스트
 
-image: k8s.jpg
+image: /assets/media/k8s.jpg
 
 description: 테스트입니다.
 ---
