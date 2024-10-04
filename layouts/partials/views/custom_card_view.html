@@ -1,24 +1,27 @@
-<div class="card-view">
-  {{ $item := . }}
+<div class="card-simple view-card">
+  {{ $link := .RelPermalink }}
+  {{ $target := "" }}
   
-  <h1>{{ $item.Title }}</h1>
+  {{ if .Params.external_link }}
+    {{ $link = .Params.external_link }}
+    {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+  {{ end }}
 
-  <div class="article-metadata">
-    <span>{{ $item.Date.Format "2006-01-02" }}</span>
-    {{ if $item.Params.authors }}
-      <span>by {{ range $item.Params.authors }}{{ . }}{{ if not (eq (last $item.Params.authors) .) }}, {{ end }}{{ end }}</span>
+  {{ $summary := "" }}
+  {{ if .Params.summary }}
+    {{ $summary = .Params.summary | markdownify | emojify }}
+  {{ else if .Params.abstract }}
+    {{ $summary = .Params.abstract | markdownify | emojify }}
+  {{ else if .Summary }}
+    {{ $summary = .Summary }}
+  {{ end }}
+
+  <div class="card-content">
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+      <h3>{{ .Title }}</h3>
+    </a>
+    {{ if $summary }}
+      <p>{{ $summary }}</p>
     {{ end }}
   </div>
-
-  {{ if $item.Params.image }}
-    <img src="{{ $item.Params.image }}" alt="{{ $item.Title }}" class="article-banner" loading="lazy">
-  {{ end }}
-
-  <div class="article-content">
-    {{ .Content | markdownify }}
-  </div>
-
-  {{ if .Params.external_link }}
-    <a href="{{ .Params.external_link }}" target="_blank" rel="noopener">Read more</a>
-  {{ end }}
 </div>

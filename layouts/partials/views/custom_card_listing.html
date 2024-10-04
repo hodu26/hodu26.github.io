@@ -1,21 +1,7 @@
 <div class="card-listing">
-  {{ range .Items }}
-    <div class="card-simple">
-      <a href="{{ .RelPermalink }}">
-        <div class="img-hover-zoom">
-          {{ if .Params.image }}
-            <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
-          {{ end }}
-        </div>
-        <div class="card-title">
-          <h3>{{ .Title }}</h3>
-        </div>
-      </a>
-      <div class="card-summary">
-        {{ if .Summary }}
-          <p>{{ .Summary }}</p>
-        {{ end }}
-      </div>
+  {{ range .Pages }}
+    <div class="card-item">
+      {{ partial "card_view.html" . }}
     </div>
   {{ end }}
 </div>
