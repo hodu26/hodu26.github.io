@@ -35,9 +35,8 @@ header:
   navbar:
     enable: true
     align: r
-    logo:
-      text: HY
-      filename: 
+    show_logo: true
+    logo: "[ Portfolio HY ]"
     show_language: false
     show_day_night: true
     show_search: true
