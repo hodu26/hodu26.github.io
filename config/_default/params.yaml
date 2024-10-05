@@ -111,3 +111,5 @@ extensions:
     local_backend: false
   academicons:
     enable: false
+
+image: welcome.png
