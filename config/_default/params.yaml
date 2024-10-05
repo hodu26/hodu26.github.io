@@ -112,4 +112,5 @@ extensions:
   academicons:
     enable: false
 
-image: welcome.png
+images:
+  default-og-image: welcome.png
