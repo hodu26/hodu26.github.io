@@ -111,6 +111,3 @@ extensions:
     local_backend: false
   academicons:
     enable: false
-
-images:
-  default-og-image: welcome.png

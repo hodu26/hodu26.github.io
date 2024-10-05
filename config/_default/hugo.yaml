@@ -74,3 +74,11 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+
+# Open Graph settings (for social media previews)
+params:
+  description: "허완의 포트폴리오"
+  author: "허완"
+  ogImage: "welcome.jpg"  # 사이트를 대표하는 이미지의 경로
+  ogType: "website"
+  ogTitle: "Portfoio HY"
