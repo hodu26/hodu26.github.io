@@ -48,7 +48,7 @@ jobs:
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
-          HUGO_BASE_URL: https://jggyu2.github.io/
+          HUGO_BASE_URL: https://hodu26.github.io/
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
