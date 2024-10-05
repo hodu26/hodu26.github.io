@@ -36,7 +36,7 @@ header:
     enable: true
     align: r
     logo:
-      text: "Portfolio HY"
+      text: "HY"
       filename: 
     show_language: false
     show_day_night: true
