@@ -1,5 +1,5 @@
 ---
 title: Studies
 
-view: card
+view: custom_card_view_study
 ---
