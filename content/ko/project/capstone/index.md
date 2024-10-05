@@ -11,7 +11,6 @@ tags:
   - LLM
   - Kobert
 date: 2024-09-10
-external_link: https://github.com/capstone-gaon
 
 image:
   placement: 1
@@ -19,17 +18,17 @@ image:
   focal_point: "Center"
   preview_only: true
   alt_text: Capstone banner image
-  filename: project/capstone.jpg  # Uncomment to load an image from `assets/media/` instead.
+  filename: project/capstone.png  # Uncomment to load an image from `assets/media/` instead.
 
 banner: 
-  image: project/capstone.jpg
+  image: project/capstone.png
   caption: "Capstone banner image by gaon"
 
 links:
   - icon: github
     icon_pack: fab
     name: github
-    url: http://github.com/hodu26/23ALPStudy
+    url: http://github.com/capstone-gaon
   - icon: book-bookmark
     icon_pack: fas
     name: Notion
