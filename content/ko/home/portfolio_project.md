@@ -28,12 +28,12 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Machine Learning
-      tag: ML
-    - name: Cloud
-      tag: cloud
-    - name: NLP
-      tag: NLP
+    - name: Web
+      tag: web
+    - name: App
+      tag: app
+    - name: Game
+      tag: game
 
 design:
   columns: '1'

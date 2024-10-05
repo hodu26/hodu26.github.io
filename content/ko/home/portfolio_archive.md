@@ -28,12 +28,12 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Machine Learning
-      tag: ML
-    - name: Cloud
-      tag: cloud
-    - name: NLP
-      tag: NLP
+    - name: University
+      tag: university
+    - name: Region
+      tag: region
+    - name: Nationwide
+      tag: nationwide
 
 design:
   columns: '1'

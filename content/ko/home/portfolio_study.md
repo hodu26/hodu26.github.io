@@ -28,12 +28,12 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Machine Learning
-      tag: ML
+    - name: OS
+      tag: OS
     - name: Cloud
       tag: cloud
-    - name: NLP
-      tag: NLP
+    - name: Algorithm
+      tag: algorithm
 
 design:
   columns: '1'
