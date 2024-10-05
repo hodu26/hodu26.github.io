@@ -15,7 +15,7 @@ image:
   focal_point: "Center"
   preview_only: true
   alt_text: k8s img by Unsplash(Growtika)
-  filename: k8s.jpg  # Uncomment to load an image from `assets/media/` instead.
+  filename: project/k8s.jpg  # Uncomment to load an image from `assets/media/` instead.
 
 banner: 
   image: k8s.jpg

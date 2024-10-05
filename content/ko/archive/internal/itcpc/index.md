@@ -2,7 +2,7 @@
 title: 2020 IT정보공학과 프로그래밍 경진대회 입상 [ITCPC]
 
 image: 
-  filename : itcpc.png
+  filename : archive/itcpc.png
 
 date: 2020-11-20
 

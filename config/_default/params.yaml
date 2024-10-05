@@ -35,7 +35,9 @@ header:
   navbar:
     enable: true
     align: r
-    show_logo: true
+    logo:
+      text: "Portfolio HY"
+      filename: "logo.jpg"
     show_language: false
     show_day_night: true
     show_search: true

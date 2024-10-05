@@ -2,7 +2,7 @@
 title: K-hackathon 11 우수상 수상 [JBDev - Elemental Coding Master]
 
 image: 
-  filename : k-hackathon11.jpg
+  filename : archive/k-hackathon11.jpg
 
 date: 2023-11-03
 

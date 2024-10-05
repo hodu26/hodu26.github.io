@@ -2,7 +2,7 @@
 title: Oasis 해커톤 최우수상 수상 [IJ20 - 호남人]
 
 image: 
-  filename : oasis-con.jpg
+  filename : archive/oasis-con.jpg
 
 date: 2024-08-26
 
