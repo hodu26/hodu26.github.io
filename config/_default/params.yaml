@@ -15,10 +15,10 @@ appearance:
 
 marketing:
   seo:
-    site_type: Person
-    local_business_type: 'programmer'
-    org_name: 'Jeonbuk National University / 전북대학교 허완'
-    description: 'A person who intereted in Cloud Computing.'
+    site_type: Portfolio Website
+    local_business_type: 'IT'
+    org_name: 'Jeonbuk National University / 전북대학교'
+    description: "A person's portfolio who intereted in Cloud Computing. | 전북대 허완"
     twitter: ''
   analytics:
     google_analytics: ''
