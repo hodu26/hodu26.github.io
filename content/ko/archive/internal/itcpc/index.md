@@ -8,6 +8,13 @@ date: 2020-11-20
 
 summary: 2020 IT정보공학과 프로그래밍 경진대회 [ITCPC] 전체 4위 | 1학년 우수상
 
+tags:
+  - algorithm
+  - internal
+  - university
+  - JBNU
+  - deapartment of IT
+
 links:
   - icon: searchengin
     icon_pack: fab

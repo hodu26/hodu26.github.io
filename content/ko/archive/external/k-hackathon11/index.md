@@ -8,6 +8,12 @@ date: 2023-11-03
 
 summary: K-hackathon 11 우수상(한국콘텐츠학회장상) 수상 [JBDev - Elemental Coding Master]
 
+tags:
+  - game
+  - external
+  - nationwide
+  - unity
+
 links:
   - icon: searchengin
     icon_pack: fab
