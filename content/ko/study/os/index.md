@@ -25,7 +25,7 @@ links:
   - icon: book-bookmark
     icon_pack: fas
     name: Notion
-    url: https://www.notion.so/hodu26/OSTEP-Study-fcb9ce8cf1ac4548874aa20280f7c691
+    url: https://hodu26.notion.site/OSTEP-Study-fcb9ce8cf1ac4548874aa20280f7c691
 ---
 
 
