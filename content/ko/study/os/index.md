@@ -57,8 +57,8 @@ feat. 김규호(전북대 OSLAB), 배용하(국민대 DDPS LAB)
 &nbsp;
 
 ## 5. 학습 내용
-인트로  ->  CPU 및 프로세스 가상화  ->  프로세스 API  ->  Direct Execution  ->  Limited Direct Execution     
-->  CPU 스케줄링  ->  Address Space  ->  ...
+인트로  ->  CPU 및 프로세스 가상화  ->  프로세스 API  ->  Direct Execution     
+->  Limited Direct Execution  ->  CPU 스케줄링  ->  Address Space  ->  ...
 
 &nbsp;
 
