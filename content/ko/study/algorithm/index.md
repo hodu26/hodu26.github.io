@@ -47,7 +47,7 @@ links:
 ## 스터디 개요
 **Basic**         : **자료구조**를 사용하여 문제를 해결하는 능력을 기른다.
 **Intermediate**  : **알고리즘**을 활용하여 문제를 해결하는 능력을 기른다.
-
+{{< icon name="c" pack="fas" >}}, {{< icon name="python" pack="fab" >}}
 
 ## 스터디 일정
 스터디는 매주 1회씩 진행되며,   
