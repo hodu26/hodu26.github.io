@@ -86,7 +86,9 @@ SNS의 부작용을 줄이고자 폐쇄형 SNS인 감정일기 플랫폼을 개�
 &nbsp;
 
 ## 7. 향후 계획
-지속적인 Kobert 및 LLM 파인튜닝 및 UI/UX 개선 ... v&nbsp;&nbsp;
+지속적인 Kobert 및 LLM 파인튜닝 및 UI/UX 개선 ... 
+
+&nbsp;
 
 ## 8. 참고 자료
 - [ERD](https://www.erdcloud.com/d/D32QknBQnHz4nqA3X)
