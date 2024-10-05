@@ -35,7 +35,7 @@ links:
    
    
 ## 1. 소개
-2023년 1학기   : Basic  ( 자료구조 )
+2023년 1학기   : Basic  ( 자료구조 )    
 2023년 2학기 ~ : Intermediate  ( 알고리즘 )
 
 ## 2. 목차
@@ -46,8 +46,8 @@ links:
 - [향후 학습 계획](#향후-학습-계획)
 
 ## 3. 스터디 개요
-**Basic**         : **자료구조**를 사용하여 문제를 해결하는 능력을 기른다.
-**Intermediate**  : **알고리즘**을 활용하여 문제를 해결하는 능력을 기른다.
+**Basic**         : **자료구조**를 사용하여 문제를 해결하는 능력을 기른다.    
+**Intermediate**  : **알고리즘**을 활용하여 문제를 해결하는 능력을 기른다.    
 {{< icon name="c" pack="fas" >}}, {{< icon name="python" pack="fab" >}}
 
 ## 4. 스터디 일정
@@ -55,8 +55,10 @@ links:
 각 주마다 2문제씩 발표하고 질문하는 형식으로 진행된다.
 
 ## 5. 학습 내용
-**Basic**         : Array / Linked List  ->  Stack / Queue / Deque  ->  Graph / DFS / BFS  ->  Recursion / 백트래킹  ->  Tree  ->  BST / Heap
-**Intermediate**  : 이분 탐색 / 투 포인터  ->  DP  ->  그리디  ->  분할 정복  ->  다익스트라 / 플로이드  ->  최소 신장 트리  ->  위상 정렬  ->  Prefix sum  ->  분리 집합
+**Basic**         : Array / Linked List  ->  Stack / Queue / Deque  ->  Graph / DFS / BFS    
+->  Recursion / 백트래킹  ->  Tree  ->  BST / Heap
+**Intermediate**  : 이분 탐색 / 투 포인터  ->  DP  ->  그리디  ->  분할 정복  ->  다익스트라 / 플로이드   
+->  최소 신장 트리  ->  위상 정렬  ->  Prefix sum  ->  분리 집합
 
 ## 6. 참고 자료
 - [ALPS Basic](https://github.com/alps-jbnu/23ALPStudy)
