@@ -15,10 +15,10 @@ appearance:
 
 marketing:
   seo:
-    site_type: Portfolio Website
-    local_business_type: 'IT'
-    org_name: 'Jeonbuk National University / 전북대학교'
-    description: "A person's portfolio who intereted in Cloud Computing. | 전북대 허완"
+    site_type: Person
+    local_business_type: ''
+    org_name: 'Jeonbuk National University | 전북대학교'
+    description: "Portfolio by Yan Heo at Jeonbuk National University. | 전북대 허완의 포트폴리오"
     twitter: ''
   analytics:
     google_analytics: ''

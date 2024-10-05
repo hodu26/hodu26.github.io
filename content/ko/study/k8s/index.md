@@ -23,7 +23,7 @@ banner:
 
 links:
   - icon: book-bookmark
-    icon_pack: fab
+    icon_pack: fas
     name: Notion
     url: https://www.notion.so/Kubernetes-k8s-116a3986ce7e80989e90cb5e126c0556
 ---
