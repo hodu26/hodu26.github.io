@@ -1,73 +1,80 @@
 ---
-title: Kubernetes (k8s)
-summary: Deploy kubernetes on openstack
+title: 캡스톤 프로젝트 [가온 - 나의 해방 일기]
+summary: Kobert와 LLM을 활용한 폐쇄형 SNS, 감정일기 애플리케이션
 tags:
-  - k8s
-  - kubernetes
-  - cloud
-  - devops
-date: 2024-08-20
-external_link: http://github.com/hodu26
+  - app
+  - JBNU
+  - container
+  - React
+  - Nest.js
+  - Typescript
+  - LLM
+  - Kobert
+date: 2024-09-10
+external_link: https://github.com/capstone-gaon
 
 image:
   placement: 1
-  caption: "Image credit: [Unsplash](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%ED%8C%8C%EB%9E%80%EC%83%89-%EC%83%81%EC%9E%90-%EA%B7%B8%EB%A3%B9-ZfVyuV8l7WU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)의 [Growtika](https://unsplash.com/ko/@growtika?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"
+  caption: "Capstone banner image by gaon"
   focal_point: "Center"
   preview_only: true
-  alt_text: k8s img by Unsplash(Growtika)
-  filename: project/k8s.jpg  # Uncomment to load an image from `assets/media/` instead.
+  alt_text: Capstone banner image
+  filename: project/capstone.jpg  # Uncomment to load an image from `assets/media/` instead.
 
 banner: 
-  image: project/k8s.jpg
-  caption: "Image credit: [Unsplash](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%ED%8C%8C%EB%9E%80%EC%83%89-%EC%83%81%EC%9E%90-%EA%B7%B8%EB%A3%B9-ZfVyuV8l7WU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)의 [Growtika](https://unsplash.com/ko/@growtika?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"
+  image: project/capstone.jpg
+  caption: "Capstone banner image by gaon"
+
+links:
+  - icon: github
+    icon_pack: fab
+    name: github
+    url: http://github.com/hodu26/23ALPStudy
+  - icon: book-bookmark
+    icon_pack: fas
+    name: Notion
+    url: https://www.notion.so/66072a3361bf44c5a2351b7f428f9874
+  - icon: figma
+    icon_pack: fab
+    name: Figma
+    url: https://www.figma.com/files/team/1416687740278102546/project/277608999/Capstone?fuid=1398959164732687467
+  - icon: 
 ---
 
-# 프로젝트 이름
 
-## 소개
-프로젝트의 간단한 소개 및 목적을 설명합니다.
+## 1. 소개
+SNS의 확산으로 인해 타인과 비교하는 문화가 확산되어 우을증이 심화됨에 따라,    
+SNS의 부작용을 줄이고자 폐쇄형 SNS인 감정일기 플랫폼을 개발
 
-## 목차
+## 2. 목차
 - [프로젝트 개요](#프로젝트-개요)
 - [기술 스택](#기술-스택)
-- [설치 방법](#설치-방법)
-- [사용 방법](#사용-방법)
 - [주요 기능](#주요-기능)
 - [문제 해결](#문제-해결)
 - [향후 계획](#향후-계획)
 - [참고 자료](#참고-자료)
 
-## 프로젝트 개요
-프로젝트의 상세 개요를 설명합니다.  
-예시: 이 프로젝트는 **웹 애플리케이션**을 통해 사용자가 **개인 정보를 관리**할 수 있도록 하는 시스템입니다.
+## 3. 프로젝트 개요
+이 프로젝트는 **애플리케이션**을 통해 우을증 위헝이 있는 사람들에게    
+**폐쇄형 SNS**를 제공한다.
 
-## 기술 스택
+## 4. 기술 스택
 프로젝트에 사용된 주요 기술 스택을 나열합니다.
-- **프론트엔드**: React, Vue.js 등
-- **백엔드**: Node.js, Django 등
-- **데이터베이스**: MySQL, PostgreSQL 등
-- **기타**: Docker, Kubernetes 등
+- **프론트엔드**: React (TypeScript), Expo
+- **백엔드**: Nest.js
+- **데이터베이스**: PostgreSQL
+- **기타**: Docker, Jenkins ...
 
-## 설치 방법
-프로젝트를 로컬에서 실행하기 위한 설치 방법을 설명합니다. (필요한 설치 명령어 등을 여기에 추가할 수 있습니다.)
-
-## 사용 방법
-프로젝트의 기본적인 사용 방법을 설명합니다. 스크린샷이나 GIF를 추가하면 더 좋습니다.
-
-## 주요 기능
-프로젝트의 주요 기능들을 나열하고 설명합니다.
+## 5. 주요 기능
 - **회원 가입 및 로그인**
-- **게시글 작성 및 수정**
-- **댓글 기능**
+- **일기 작성 및 분석**
+- **Kobert와 LLM을 사용한 감정 분석 및 조언 제공**
 
-## 문제 해결
-개발 중 직면한 문제와 해결 방법을 기록합니다.  
-예시: "API 요청 시간이 길어져서, `axios`의 `timeout` 설정을 추가했습니다."
+## 6. 문제 해결
+- LLM 응답 속도가 매우 느려 GPU 서버 확보 및 **모델 양자화**를 통하여 해결
 
-## 향후 계획
-프로젝트의 향후 발전 방향이나 추가하고자 하는 기능을 설명합니다.
+## 7. 향후 계획
+지속적인 Kobert 및 LLM 파인튜닝 및 UI/UX 개선 ... 
 
-## 참고 자료
-참고한 자료나 관련 링크를 나열합니다.
-- [링크1](https://example.com)
-- [링크2](https://example.com)
+## 8. 참고 자료
+- [ERD](https://www.erdcloud.com/d/D32QknBQnHz4nqA3X)
