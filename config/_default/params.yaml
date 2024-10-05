@@ -14,10 +14,10 @@ appearance:
 # Open Graph settings (for social media previews)
 og:
   description: "Portfolio by Yan Heo at Jeonbuk National University. | 전북대 허완의 포트폴리오"
-  image: "icon.png"  # 사이트를 대표하는 이미지의 경로
+  image: "media/icon.png"  # 사이트를 대표하는 이미지의 경로
   type: "website"
   title: "Portfoio HY"
-  url: https://hodu26.github.io/
+  url: "https://hodu26.github.io"
 
 # SEO
 
