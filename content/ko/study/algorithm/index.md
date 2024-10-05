@@ -31,9 +31,7 @@ links:
     url: http://github.com/hodu26/24ALPStudy
 ---
 
-# ALPS 알고리즘 스터디
-   
-   
+
 ## 1. 소개
 2023년 1학기   : Basic  ( 자료구조 )    
 2023년 2학기 ~ : Intermediate  ( 알고리즘 )
