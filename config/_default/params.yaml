@@ -12,13 +12,12 @@ appearance:
   font_size: L
 
 # Open Graph settings (for social media previews)
-params:
-  description: "허완의 포트폴리오"
-  author: "허 완"
-  ogImage: "icon.png"  # 사이트를 대표하는 이미지의 경로
-  ogType: "website"
-  ogTitle: "Portfoio HY"
-  ogUrl: https://hodu26.github.io/
+og:
+  description: "Portfolio by Yan Heo at Jeonbuk National University. | 전북대 허완의 포트폴리오"
+  image: "icon.png"  # 사이트를 대표하는 이미지의 경로
+  type: "website"
+  title: "Portfoio HY"
+  url: https://hodu26.github.io/
 
 # SEO
 
