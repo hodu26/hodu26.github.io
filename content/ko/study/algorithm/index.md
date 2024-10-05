@@ -1,6 +1,6 @@
 ---
-title: Kubernetes (k8s)
-summary: Deploy kubernetes on openstack
+title: ALPS 알고리즘 스터디
+summary: 자료구조 및 알고리즘 학습
 tags:
   - algorithm
   - alps
