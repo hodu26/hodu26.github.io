@@ -40,7 +40,7 @@ content:
         position: center
         color: '#ffffff'
         brightness: 0.7
-        media: porject/java-game.png
+        media: project/java-game.png
         fit: cover
       link:
         icon: circle-plus
