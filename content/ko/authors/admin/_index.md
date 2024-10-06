@@ -25,6 +25,7 @@ interests:
 - Operating System
 - Embedded Programing
 - Algorithm
+- DevOps
 
 education:
   courses:
@@ -65,4 +66,9 @@ email: "gjdhks1212@jbnu.ac.kr"
 
 클라우드 컴퓨팅 외에도 알고리즘 및 모바일 프로그래밍, 유니티 등 다양한 분야를 경험하고 있습니다.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/04.Direct_Execution(24.07.07.).pdf" "newtab" >}}Download{{< /staticref >}} my sample as a PDF.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/04.Direct_Execution(24.07.07.).pdf" "newtab" >}}Download{{< /staticref >}} my sample as a PDF.    
+ 
+
+### **목표**    
+- **devops를 위한 아키텍처 구성**    
+- **안정적인 자동화 개발 환경 배포**
