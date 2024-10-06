@@ -35,8 +35,8 @@ The competition was held from August 26 to 27, 2023, and was held at the Ramada 
 
 We proposed and developed an impromptu travel platform service through a dart game.   
 
-팀명 : **IJ20** (이진규, 조대인, 최홍석, 허 완)   
-서비스명 : **호남人**   
-개발스택 : Android studio, kotlin, firebase
+Team : **IJ20** (이진규, 조대인, 최홍석, 허 완)   
+Service : **호남人**   
+Development stack : Android studio, kotlin, firebase
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/oasis-con_ppt.pdf" "newtab" >}}Presentation{{< /staticref >}}

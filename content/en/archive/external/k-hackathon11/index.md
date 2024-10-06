@@ -27,8 +27,8 @@ The competition was held on November 03, 2023 (Fri) and was held at Pangyo Metav
 
 We proposed and developed an Elemental Coding Master service for coding beginners.   
 
-팀명 : **JBDev** (최홍석, 허 완, 홍건하)   
-서비스명 : **Elemental Coding Master**   
-개발스택 : Unity, C#
+Team : **JBDev** (최홍석, 허 완, 홍건하)   
+Service : **Elemental Coding Master**   
+Development stack : Unity, C#
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/k-hackathon_ppt.pdf" "newtab" >}}Presentation{{< /staticref >}} {{< icon name="download" pack="fas" >}} {{< staticref "uploads/k-hackathon_awards.pdf" "newtab" >}}Pamphlet{{< /staticref >}}
