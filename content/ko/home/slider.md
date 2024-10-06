@@ -43,7 +43,7 @@ content:
         media: porject/java-game.png
         fit: cover
       link:
-        icon: graduation-cap
+        icon: circle-plus
         icon_pack: fas
         text: More
         url: ../project/
