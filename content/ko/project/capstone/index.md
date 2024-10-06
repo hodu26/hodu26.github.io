@@ -1,8 +1,9 @@
 ---
 title: 캡스톤 프로젝트 [가온 - 나의 해방 일기]
-summary: Kobert와 LLM을 활용한 폐쇄형 SNS, 감정일기 애플리케이션
+summary: Kobert와 LLM을 활용한 폐쇄형 SNS, 감정일기 애플리케이션/웹
 tags:
   - app
+  - web
   - JBNU
   - container
   - React
@@ -40,7 +41,6 @@ links:
     url: https://www.figma.com/files/team/1416687740278102546/project/277608999/Capstone?fuid=1398959164732687467
 ---
 
-&nbsp;
 
 ## 1. 소개
 SNS의 확산으로 인해 타인과 비교하는 문화가 확산되어 우을증이 심화됨에 따라,    
@@ -65,7 +65,6 @@ SNS의 부작용을 줄이고자 폐쇄형 SNS인 감정일기 플랫폼을 개�
 &nbsp;
 
 ## 4. 기술 스택
-프로젝트에 사용된 주요 기술 스택을 나열합니다.
 - **프론트엔드**: React (TypeScript), Expo
 - **백엔드**: Nest.js
 - **데이터베이스**: PostgreSQL
@@ -74,9 +73,11 @@ SNS의 부작용을 줄이고자 폐쇄형 SNS인 감정일기 플랫폼을 개�
 &nbsp;
 
 ## 5. 주요 기능
+![Figma](ui.png "app UI")
 - **회원 가입 및 로그인**
 - **일기 작성 및 분석**
 - **Kobert와 LLM을 사용한 감정 분석 및 조언 제공**
+- **주간/월간 리포트**
 
 &nbsp;
 
