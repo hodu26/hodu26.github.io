@@ -1,73 +1,79 @@
 ---
-title: Kubernetes (k8s)
-summary: Deploy kubernetes on openstack
+title: 전북대 배경 공포게임 [자바스크립트(?) - Secret Of Ghost]
+summary: 전북대를 배경으로 진행되는 공포게임
 tags:
-  - k8s
-  - kubernetes
-  - cloud
-  - devops
-date: 2024-08-20
-external_link: http://github.com/hodu26
+  - game
+  - web
+  - java
+  - mini-game
+  - JBNU
+date: 2024-06-16
 
 image:
   placement: 1
-  caption: "Image credit: [Unsplash](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%ED%8C%8C%EB%9E%80%EC%83%89-%EC%83%81%EC%9E%90-%EA%B7%B8%EB%A3%B9-ZfVyuV8l7WU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)의 [Growtika](https://unsplash.com/ko/@growtika?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"
+  caption: "Java game banner image by 자바스크립트(?)"
   focal_point: "Center"
   preview_only: true
-  alt_text: k8s img by Unsplash(Growtika)
-  filename: project/k8s.jpg  # Uncomment to load an image from `assets/media/` instead.
+  alt_text: java game banner image
+  filename: project/java-game.png  # Uncomment to load an image from `assets/media/` instead.
 
 banner: 
-  image: project/k8s.jpg
-  caption: "Image credit: [Unsplash](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%ED%8C%8C%EB%9E%80%EC%83%89-%EC%83%81%EC%9E%90-%EA%B7%B8%EB%A3%B9-ZfVyuV8l7WU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)의 [Growtika](https://unsplash.com/ko/@growtika?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"
+  image: project/java-game.png
+  caption: "Java game banner image by 자바스크립트(?)"
+
+links:
+  - icon: youtube
+    icon_pack: fab
+    name: Youtube
+    url: https://www.youtube.com/watch?v=d9ochLvmVBs
 ---
 
-# 프로젝트 이름
 
-## 소개
-프로젝트의 간단한 소개 및 목적을 설명합니다.
+## 1. 소개
+전북대를 배경으로 진행되는 스토리 공포게임
 
-## 목차
+&nbsp;
+
+## 2. 목차
 - [프로젝트 개요](#프로젝트-개요)
 - [기술 스택](#기술-스택)
-- [설치 방법](#설치-방법)
-- [사용 방법](#사용-방법)
 - [주요 기능](#주요-기능)
 - [문제 해결](#문제-해결)
 - [향후 계획](#향후-계획)
 - [참고 자료](#참고-자료)
 
-## 프로젝트 개요
-프로젝트의 상세 개요를 설명합니다.  
-예시: 이 프로젝트는 **웹 애플리케이션**을 통해 사용자가 **개인 정보를 관리**할 수 있도록 하는 시스템입니다.
+&nbsp;
 
-## 기술 스택
-프로젝트에 사용된 주요 기술 스택을 나열합니다.
-- **프론트엔드**: React, Vue.js 등
-- **백엔드**: Node.js, Django 등
-- **데이터베이스**: MySQL, PostgreSQL 등
-- **기타**: Docker, Kubernetes 등
+## 3. 프로젝트 개요
+이 프로젝트는 **게임**을 학교 내부를 간접적으로 둘러볼 수 있게 하며,   
+**공포 요소**를 첨가하여 사용자에게 흥미를 제공한다.
 
-## 설치 방법
-프로젝트를 로컬에서 실행하기 위한 설치 방법을 설명합니다. (필요한 설치 명령어 등을 여기에 추가할 수 있습니다.)
+&nbsp;
 
-## 사용 방법
-프로젝트의 기본적인 사용 방법을 설명합니다. 스크린샷이나 GIF를 추가하면 더 좋습니다.
+## 4. 기술 스택
+- **프론트엔드**: Java
+- **백엔드**: Java
+- **데이터베이스**: Local
 
-## 주요 기능
-프로젝트의 주요 기능들을 나열하고 설명합니다.
-- **회원 가입 및 로그인**
-- **게시글 작성 및 수정**
-- **댓글 기능**
+&nbsp;
 
-## 문제 해결
-개발 중 직면한 문제와 해결 방법을 기록합니다.  
-예시: "API 요청 시간이 길어져서, `axios`의 `timeout` 설정을 추가했습니다."
+## 5. 주요 기능
+![Game](ui.png "game UI")
+- **흥미진진한 스토리**
+- **3가지의 흥미로운 미니게임**
+- **실제 학교를 배경으로 한 사진**
 
-## 향후 계획
-프로젝트의 향후 발전 방향이나 추가하고자 하는 기능을 설명합니다.
+&nbsp;
 
-## 참고 자료
-참고한 자료나 관련 링크를 나열합니다.
-- [링크1](https://example.com)
-- [링크2](https://example.com)
+## 6. 문제 해결
+- 쫒아오는 사람의 속도가 너무 빨라 속도를 늦춰 난이도 조절
+
+&nbsp;
+
+## 7. 향후 계획
+.... 
+
+&nbsp;
+
+## 8. 참고 자료
+- [시연 영상](https://www.youtube.com/watch?v=d9ochLvmVBs)

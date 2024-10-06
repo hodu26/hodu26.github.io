@@ -13,7 +13,7 @@ date: 2024-08-25
 
 image:
   placement: 1
-  caption: "Capstone banner image by IJ20"
+  caption: "Oasis-con banner image by IJ20"
   focal_point: "Center"
   preview_only: true
   alt_text: Oasis-con banner image
