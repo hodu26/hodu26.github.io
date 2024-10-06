@@ -18,19 +18,19 @@ organizations:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include cloud engineering and operating system.
+bio: 저는 클라우드 컴퓨팅과 운영체제 연구에 관심을 가지고 있습니다.
 
 interests:
-- Cloud Computing
-- Operating System
-- Embedded Programing
-- Algorithm
+- 클라우드 컴퓨팅 
+- 운영체제 
+- 임베디드 SW 프로그래밍 
+- 알고리즘 
 - DevOps
 
 education:
   courses:
-  - course: Department of IT Information Engineering
-    institution: Jeonbuk National University
+  - course: IT정보공학과
+    institution: 전북대학교 
     year: 2020 - 2026
 
 # Social/Academic Networking
@@ -51,12 +51,6 @@ social:
     icon_pack: fab
     link: https://github.com/hodu26
 
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
-
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "gjdhks1212@jbnu.ac.kr"
 ---
@@ -70,5 +64,5 @@ email: "gjdhks1212@jbnu.ac.kr"
  
 
 ### **목표**    
-- **devops를 위한 아키텍처 구성**    
-- **안정적인 자동화 개발 환경 배포**
+- devops를 위한 아키텍처 구성   
+- 안정적인 자동화 개발 환경 배포

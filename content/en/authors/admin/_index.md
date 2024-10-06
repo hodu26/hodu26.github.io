@@ -6,68 +6,63 @@ title: Yan Heo
 superuser: true
 
 # Role/position
-role: ''
+role: 'Student'
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: ☁️
 
 # Organizations/Affiliations
-#organizations:
-#- name: 腾讯
+organizations:
+- name: Department of IT Information Engineering, Jeonbuk National University
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include cloud engineering and operating system.
 
-#interests:
-#- Artificial Intelligence
-#- Computational Linguistics
-#- Information Retrieval
+interests:
+- Cloud Computing
+- Operating System
+- Embedded Programing
+- Algorithm
+- DevOps
 
-#education:
-#  courses:
-#  - course: PhD in Artificial Intelligence
-#    institution: Stanford University
-#    year: 2012
-#  - course: MEng in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2009
-#  - course: BSc in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2008
+education:
+  courses:
+  - course: Department of IT Information Engineering
+    institution: Jeonbuk National University
+    year: 2020 - 2026
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  # - icon: envelope
-  #   icon_pack: fas
-  #   link: 'about/#contact' # For a direct email link, use "mailto:test@example.org".
-  # - icon: twitter
-  #   icon_pack: fab
-  #   link: https://twitter.com/wowchemy
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:gjdhks1212@jbnu.ac.kr
   - icon: instagram
     icon_pack: fab
     link: https://instagram.com/gjdhks1212
-  # Uncomment below for Github link
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/%EC%99%84-%ED%97%88-2a4642310/
   - icon: github
     icon_pack: fab
     link: https://github.com/hodu26
 
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
-
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-#email: ""
+email: "gjdhks1212@jbnu.ac.kr"
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am Yan Heo who is currently majoring in computer science at Jeonbuk National University.
+I am interested in cloud computing and I am studying how to set up a development environment and distribute services in a cloud environment.   
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+In addition to cloud computing, I am experiencing various fields such as algorithms and mobile programming, and Unity.   
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/04.Direct_Execution(24.07.07.).pdf" "newtab" >}}Download{{< /staticref >}} my sample as a PDF.    
+ 
+
+### **Goal**    
+- Configuring Architecture for devops   
+- Deploying a Reliable Automation Development Environment

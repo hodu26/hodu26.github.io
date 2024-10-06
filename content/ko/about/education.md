@@ -22,16 +22,16 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Department of IT Information Engineering
-    company: Jeonbuk National University
+  - title: IT정보공학과
+    company: 전북대학교 
     company_url: 'https://csai.jbnu.ac.kr/csai/index.do'
     company_logo: jbnu
-    location: Korea | Jeonju
+    location: 대한민국 | 전주 
     date_start: '2020-03-01'
     date_end: '2026-02-28'
     description: |2-
         * OS Lab
-        * Volunteering club
+        * 봉사 동아리
 
 design:
   columns: '1'
